@@ -7,7 +7,6 @@ namespace RepoApp.Controllers
     public class HomeController : Controller
     {
         // GET: /<controller>/
-        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();

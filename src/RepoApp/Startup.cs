@@ -16,17 +16,9 @@ namespace RepoApp
 
         public void Configure(IApplicationBuilder app)
         {
-            // Add static files to the request pipeline.
-            //app.UseStaticFiles();
-
+            
             // Add MVC to the request pipeline.
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller}/{action}/{id?}",
-                    defaults: new { controller = "Home", action = "Index" });
-            });
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
