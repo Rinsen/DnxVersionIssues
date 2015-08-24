@@ -6,7 +6,7 @@
     "Microsoft.AspNet.Mvc": "6.0.0-beta6",
     "Microsoft.AspNet.Server.IIS": "1.0.0-beta6",
     "Microsoft.AspNet.Server.WebListener": "1.0.0-beta6",
-    "Dapper": "1.41.0-beta5"
+    "System.Runtime" :  "4.0.20-beta-22816"
   },
 
   "commands": {
